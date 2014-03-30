@@ -1,7 +1,5 @@
 package aruite.tanoshiku.bousaikunren;
 
-import com.google.android.gms.maps.GoogleMap;
-
 
 
 import android.app.Activity;
