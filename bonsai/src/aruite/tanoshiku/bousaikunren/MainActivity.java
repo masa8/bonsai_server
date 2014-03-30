@@ -52,7 +52,7 @@ public class MainActivity extends Activity {
 
             // Creating a criteria object to retrieve provider
             Criteria criteria = new Criteria();
-
+/*
             // Getting the name of the best provider
             String provider = locationManager.getBestProvider(criteria, true);
 
@@ -71,10 +71,10 @@ public class MainActivity extends Activity {
                drawMarker(location);
             }
             locationManager.requestLocationUpdates(provider, 20000, 0, (android.location.LocationListener) locationListener);
-       
+  */     
         }
     }
-    
+    /*
     private void drawMarker(Location location){
     	googleMap.clear();
     	LatLng currentPosition = new LatLng(location.getLatitude(),
@@ -85,4 +85,5 @@ public class MainActivity extends Activity {
     	.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE))
     	.title("ME"));
     	}
+    */
 }
